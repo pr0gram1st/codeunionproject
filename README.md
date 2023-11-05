@@ -1,7 +1,7 @@
 # codeunionproject
 
 All Dependencies listed in requierments.txt
-
+Mention: All five tasks completed and added
 1. Go to the project directory by running the command ``` cd codeunionproject ```
 2. Install all dependencies by running the command ``` pip install requirements.txt ```
 3. To run unit tests run command: ``` python3 manage.py test ```
@@ -12,3 +12,6 @@ All Dependencies listed in requierments.txt
    ![alt text](https://github.com/pr0gram1st/codeunionproject/blob/main/success.png?raw=true)
    And here's an example of incorrect token:
    ![alt text](https://github.com/pr0gram1st/codeunionproject/blob/main/fail.png?raw=true)
+
+
+
