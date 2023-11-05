@@ -8,3 +8,7 @@ All Dependencies listed in requierments.txt
 4. Ensure that all tests are passed
 5. Run the server (``` python3 manage.py runserver ```) and go to the http://127.0.0.1:8000/api/currencies and ensure that there's no access to the api
 6. Use one of the existing tokens (9d0f5bc008b0ff5d7e2ce43cc6225bea25290c17 for example) and type this to che Terminal: ``` curl -X GET http://127.0.0.1:8000/api/currencies/ 'Authorization: Token 9d0f5bc008b0ff5d7e2ce43cc6225bea25290c17' ```
+   Here's an example of access to the API:
+   ![alt text](https://github.com/pr0gram1st/codeunionproject/blob/main/success.png?raw=true)
+   And here's an example of incorrect token:
+   ![alt text](https://github.com/pr0gram1st/codeunionproject/blob/main/fail.png?raw=true)
