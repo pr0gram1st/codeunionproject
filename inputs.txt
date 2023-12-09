@@ -1,6 +1,5 @@
 create table account(
   account_id int primary key,
-  account_status varchar,
   account_money float,
   account_currency varchar
 );
@@ -9,9 +8,10 @@ create table transactions(
   transaction_id int primary key,
   sender_id int, 
   receiver_id int, 
+  transaction_amount int,
   transaction_date date, 
   transaction_time time,
-  transaction_status varchar
+  transaction_status bool
 );
 
 create table users(
